@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+}
+.header-container {
+    width: 100%;
+    height: 60px;
+    background-color: #05141F;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 10;
+}
+.header-logo {
+    transform: translate(19px ,-15px);
+}
+.header-logo img {
+    width: 90px;
+}
+.header-nav {
+    display: flex;
+    transform: translate(-25px ,19px);
+}
+.header-nav li {
+    list-style: none;
+    margin-right: 40px;
+}
+.header-nav li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+    font-weight: bold;
+}
+.header-nav li a i {
+    font-size: 14px ;
+    margin-right: 5px ;
+}
+/* --------------------------- */
+.main {
+    display: flex;
+    flex-direction: column;
+}
+/* ------------------k4img------------------- */
+.k4img {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/kia_K4_2025_dynamic-hero-light-mep-5_XL.jpg);
+    background-size: cover;
+    text-align: center;
+}
+.k4img-t {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , 370%);
+}
+.k4img-t h2 a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 35px;
+}
+/* ------------------EV9img------------------- */
+.EV9img {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/kia_EV9_2024_mep_dynamic_hero1_XL.jpg);
+    background-size: cover;
+    text-align: center;
+}
+.EV9img-t {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , 950%);
+}
+.EV9img-t h2 a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 35px;
+}
+/* ------------------Tellurideimg------------------- */
+.Tellurideimg {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/kia_carnival-mep-lite_hero_2025_XL.jpg);
+    background-size: cover;
+    text-align: center;
+}
+.Tellurideimg-t {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , 2350%);
+}
+.Tellurideimg-t h2 a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 35px;
+}
+/* -------------------------k4-info------------------- */
+.k4-info-container {
+    width: 100%;
+    height: 100vh;
+    background-color: #05141F;
+    display: grid;
+    grid-template-columns: repeat(2 , 45%);
+    grid-gap: 0px 5%;
+}
+.k4-info-img img {
+    height: 75%;
+    margin: 20px 0px;
+}
+.k4-info-content {
+    padding: 80px 0px 70px 70px;
+    color: #fff;
+}
+.k4-info-content span {
+    font-size: 18px;
+}
+.k4-info-content h2 {
+    font-size: 40px;
+    line-height: 35px;
+    margin: 10px 0px;
+}
+.k4-info-p {
+    line-height: 35px;
+    font-size: 17px;
+}
+.k4-info-btn a button {
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    border: 1px solid #fff;
+    margin-top: 30px;
+    background: #05141F;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    transition: .5s;
+}
+.k4-info-btn a button:hover {
+    background-color: #fff;
+    color: #05141F;
+    border: 1px solid #05141F;
+}
+/* -------------------------EV9-info------------------- */
+.EV9-info-container {
+    width: 100%;
+    height: 100vh;
+    background-color: #fff ;
+    display: grid;
+    grid-template-columns: repeat(2 , 45%);
+    grid-gap: 0px 5%;
+}
+.EV9-info-img img {
+    height: 75%;
+    margin: 50px 80px;
+}
+.EV9-info-content {
+    padding: 80px 0px 70px 70px;
+    color: #05141F;
+}
+.EV9-info-content span {
+    font-size: 18px;
+}
+.EV9-info-content h2 {
+    font-size: 40px;
+    line-height: 35px;
+    margin: 10px 0px;
+}
+.EV9-info-p {
+    line-height: 35px;
+    font-size: 17px;
+}
+.EV9-info-btn a button {
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    border: 1px solid #fff;
+    margin-top: 30px;
+    background: #05141F;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    transition: .5s;
+}
+.EV9-info-btn a button:hover {
+    background-color: #fff;
+    color: #05141F;
+    border: 1px solid #05141F;
+}
+/* -------------------------Telluride-info------------------- */
+.Telluride-info-container {
+    width: 100%;
+    height: 100vh;
+    background-color: #05141F;
+    display: grid;
+    grid-template-columns: repeat(2 , 45%);
+    grid-gap: 0px 5%;
+}
+.Telluride-info-img img {
+    height: 85%;
+    margin: 30px;
+}
+.Telluride-info-content {
+    padding: 80px 0px 70px 70px;
+    color: #fff;
+}
+.Telluride-info-content span {
+    font-size: 18px;
+}
+.Telluride-info-content h2 {
+    font-size: 40px;
+    line-height: 35px;
+    margin: 10px 0px;
+}
+.Telluride-info-p {
+    line-height: 35px;
+    font-size: 17px;
+}
+.Telluride-info-btn a button {
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    border: 1px solid #fff;
+    margin-top: 30px;
+    background: #05141F;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    transition: .5s;
+}
+.Telluride-info-btn a button:hover {
+    background-color: #fff;
+    color: #05141F;
+    border: 1px solid #05141F;
+}

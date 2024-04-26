@@ -1,0 +1,245 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+}
+.header-container {
+    width: 100%;
+    height: 60px;
+    background-color: #05141F;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 10;
+}
+.header-logo {
+    transform: translate(19px ,-15px);
+}
+.header-logo img {
+    width: 90px;
+}
+.header-nav {
+    display: flex;
+    transform: translate(-25px ,19px);
+}
+.header-nav li {
+    list-style: none;
+    margin-right: 40px;
+}
+.header-nav li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+    font-weight: bold;
+}
+.header-nav li a i {
+    font-size: 14px ;
+    margin-right: 5px ;
+}
+/* --------------------------- */
+.main {
+    display: flex;
+    flex-direction: column;
+}
+/* ------------------MPVimg------------------- */
+.MPVimg {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/kia_carnival-mep-lite_hero_2025_XL\ \(1\).jpg);
+    background-size: cover;
+    text-align: center;
+}
+.MPVimg-t {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , 370%);
+}
+.MPVimg-t h2 a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 35px;
+}
+/* ------------------K5img------------------- */
+.K5img {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/kia_k5-mep-lite_2025_hero-v17_XL.jpg);
+    background-size: cover;
+    text-align: center;
+}
+.K5img-t {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , 950%);
+}
+.K5img-t h2 a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 35px;
+}
+/* ------------------Sorentoimg------------------- */
+.Sorentoimg {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/kia_sorento-family_2024_mep_dynamic_hero2_XL.jpg);
+    background-size: cover;
+    text-align: center;
+}
+.Sorentoimg-t {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , 2350%);
+}
+.Sorentoimg-t h2 a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 35px;
+}
+/* -------------------------MPV-info------------------- */
+.MPV-info-container {
+    width: 100%;
+    height: 100vh;
+    background-color: #05141F;
+    display: grid;
+    grid-template-columns: repeat(2 , 45%);
+    grid-gap: 0px 5%;
+}
+.MPV-info-img img {
+    height: 75%;
+    margin: 20px 0px;
+}
+.MPV-info-content {
+    padding: 80px 0px 70px 70px;
+    color: #fff;
+}
+.MPV-info-content span {
+    font-size: 18px;
+}
+.MPV-info-content h2 {
+    font-size: 40px;
+    line-height: 35px;
+    margin: 10px 0px;
+}
+.MPV-info-p {
+    line-height: 35px;
+    font-size: 17px;
+}
+.MPV-info-btn a button {
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    border: 1px solid #fff;
+    margin-top: 30px;
+    background: #05141F;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    transition: .5s;
+}
+.MPV-info-btn a button:hover {
+    background-color: #fff;
+    color: #05141F;
+    border: 1px solid #05141F;
+}
+/* -------------------------K5-info------------------- */
+.K5-info-container {
+    width: 100%;
+    height: 100vh;
+    background-color: #fff ;
+    display: grid;
+    grid-template-columns: repeat(2 , 45%);
+    grid-gap: 0px 5%;
+}
+.K5-info-img img {
+    height: 65%;
+    margin: 50px 80px;
+}
+.K5-info-content {
+    padding: 80px 0px 70px 70px;
+    color: #05141F;
+}
+.K5-info-content span {
+    font-size: 18px;
+}
+.K5-info-content h2 {
+    font-size: 40px;
+    line-height: 35px;
+    margin: 10px 0px;
+}
+.K5-info-p {
+    line-height: 35px;
+    font-size: 17px;
+}
+.K5-info-btn a button {
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    border: 1px solid #fff;
+    margin-top: 30px;
+    background: #05141F;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    transition: .5s;
+}
+.K5-info-btn a button:hover {
+    background-color: #fff;
+    color: #05141F;
+    border: 1px solid #05141F;
+}
+/* -------------------------Sorento-info------------------- */
+.Sorento-info-container {
+    width: 100%;
+    height: 100vh;
+    background-color: #05141F;
+    display: grid;
+    grid-template-columns: repeat(2 , 45%);
+    grid-gap: 0px 5%;
+}
+.Sorento-info-img img {
+    height: 85%;
+    margin: 30px;
+}
+.Sorento-info-content {
+    padding: 80px 0px 70px 70px;
+    color: #fff;
+}
+.Sorento-info-content span {
+    font-size: 18px;
+}
+.Sorento-info-content h2 {
+    font-size: 40px;
+    line-height: 35px;
+    margin: 10px 0px;
+}
+.Sorento-info-p {
+    line-height: 35px;
+    font-size: 17px;
+}
+.Sorento-info-btn a button {
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    border: 1px solid #fff;
+    margin-top: 30px;
+    background: #05141F;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    transition: .5s;
+}
+.Sorento-info-btn a button:hover {
+    background-color: #fff;
+    color: #05141F;
+    border: 1px solid #05141F;
+}
